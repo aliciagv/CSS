@@ -1,0 +1,54 @@
+/*Selector universal, se cambian el aspectos todos los elementos
+* {
+	margin:0;  margen
+	padding:0; margen interno que tienen los elementos
+	color:red;
+} */
+
+/*selectores de etiqueta*/
+h2 {
+	color:red; /* color que va a tener la fuente */
+}
+/* más de un elemento */
+
+h1,h3,h4,h5,h6 {
+	color:blue;
+}
+h1 {
+	font-size:50px; /*tamaño, e pixeles */
+}
+h2 {
+	font-size:40px;
+}
+a {
+	color:blue;
+	
+}
+
+/*selectores descendentes 
+todos los elementos a que esten dentro de un parrafo (p)*/
+p a {
+	font-size:30px;
+}
+/*selectores de clase */
+.orange {
+	color:orange;
+}
+/*selectores por id, sólo este id lo puede tener uno. Esta siendo un poco obsoleto los ids */
+/*
+#yellow {
+	color:yellow;
+}
+*/ 
+/*dentro de un parrafo con la clase green */
+p .green {
+	color:green;
+	font-size:40px
+
+}
+/* definiendo atributo valor */
+a[href="http://www.google.es"] {
+
+	color:yellow;
+	font-size:30px;
+}

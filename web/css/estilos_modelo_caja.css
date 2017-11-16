@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-nov-2017, 18:25:14
+    Author     : Alicia
+*/
+div {
+    width:300px;
+    /*width:50%* en porcentaje se le puede dar y dice el 50% de la página*/
+    height:120px; /* alto no se utiliza, se trabaja con  height automáticos que crezca con el contenido */ 
+    background:#ff8000;
+    margin:20px;  /*margenes externos 
+                    margin:20px   -> 20 pxpor todos los lados
+                    margin:20px 50px  -> 20px arriba y abajo y 50 px a los lados*/
+    padding:30px; /*Margen interior
+                    padding:30px -> 30 px por toods los lados
+                    
+                    */
+    border:10px solid #000;
+    display:inline-block; /* en linea bloque y ponemos en bloque para poder definir width y height */
+    /*border:10px dotte #000; /*con puntos*/
+    
+}

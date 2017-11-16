@@ -1,0 +1,20 @@
+/*Unidades de medida: absolutas y relativas
+absolutas: medidas fijas que no se modifican: cm,mm,in (cm,mm,pulgadas) % porcentaje. 
+relativas: medidas flexibles, se adaptan a nuestro trabajo. Son px,em,rem. em: 
+	em: representa el valor del elemento padre de su tamaño fuente;
+	rem: ;
+*/
+
+body {
+	font-size:16px; /*pixeles*/
+}
+
+div {
+	background:#000;
+	color:#fff;
+	font-size:20px;
+	width:50%; /*tamaño del documento, o el tamaño de su padre*/
+}
+div p {
+	font-size:1em; /*(si el valor 2 em, sería el doble de su padre)*/
+}

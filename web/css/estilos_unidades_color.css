@@ -1,0 +1,28 @@
+/*Unidades de color : 
+    colores con palabras claves
+    colores del sistema
+    colores rgb hexadecima
+    colores rgb numerico
+    colores rgb porcentual
+*/
+
+h1 {
+    color:aqua;
+    /*Palabras claves: black, white, yellow,red,blue 
+        No se suelen usar*/
+}
+h2 {
+    /*rgb numérico*/
+    color:rgb(53,131,44);
+   
+}
+h3 {
+    color:#46A0DC;
+}
+
+h4 {
+    color:rgb(10%,20%,30%)
+}
+h5 {
+     color:rgba(53,131,44,.5); /* ultimo parametro de opacidad para dar tran                                                                                                                                      sparencia*/
+}
