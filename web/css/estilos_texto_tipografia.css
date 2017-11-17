@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-nov-2017, 11:28:37
+    Author     : Alicia
+*/
+
+p {
+    color:rgba(0,0,0,.7);
+    /*fuente*/
+    font-family:"Arial"; 
+     /*tamaño*/
+    font-size:20px; /*tamaño*/
+    /* anchura que tiene la letra 
+        bold: negrita; bold:nomal; bold:300 (valor numérico)
+        h1 tiene por defecto bold, si sequiere quitar font-weight:normal
+    */
+    font-weight:normal; 
+    /* alineación de texto, solo para lo que sea tipo bloque*/
+    text-align: left; 
+    /*interlineado*/
+    line-height: 30px;
+    /* decoracion 
+    underline: subrayado
+    none: quita subrayado por ejemplo a los enlaces tipo a
+    overline: linea por encima de la línea
+    line-though: linea tachando
+    */
+    text-decoration: none;
+    /*establecer todo el texto en mayúsculas o todas la palabra incian en mayúscualas
+    capitalize: todas las palabras inician en mayúsculas
+    uppercase: todo mayúsculas
+    lowercase todo minúsculas
+    */
+    text-transform: lowercase;
+    /*espaciado entre las letras*/
+    letter-spacing:normal;
+    /*espaciado entre palabras */
+    word-spacing:20px;
+    /*se le añade una sombra al texto*/
+    text-shadow:1px 1px 0px #000;
+}
