@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-nov-2017, 12:17:26
+    Author     : Alicia
+*/
+
+form {
+    width: 25%;
+    border:1px solid #ccc;
+    margin:20px;
+    padding:20px;
+}
+
+label {
+    font-size:12px;
+    display:block;
+    width:100%;
+}
+
+textarea {
+     /*resize:horizontal;  se cambia tamaño sólo en horizontal
+    resize:both /*se cambia el tamaño a ambos lados*/ 
+     resize:vertical; /* se cambia el tamaño de manera vertical infinito  para weso max-heigh y min-height*/
+     max-height: 300px;
+     min-height: 100px;
+}
+input , textarea {
+    margin-bottom:20px;
+    width: 100%;
+    padding:10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    
+}
+
+input:focus ,textarea:focus {
+    
+    border:1px solid #1668C4; /*cambia color del border de los input */
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background:#1668C4;
+    color:#fff;
+    border:none;
+}
+
+input[type="submit"]:hover{
+    background:#4A88FA;
+    cursor:pointer; /* cursor point, donde sale la manita */
+}

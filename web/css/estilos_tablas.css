@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-nov-2017, 11:21:13
+    Author     : Alicia
+*/
+
+table {
+    border:1px solid #000; /*borde exterior*/
+    border-collapse: collapse; /* para que se colapse este borde con el de los elementos de la tabla */
+    width: 500px;
+}
+
+table td {
+    border:1px solid #000;
+    padding:20px;
+}
+
+table tr:hover {
+    background: #ccc;  /*fondo cuando pasemos el ratón por una fila*/
+    
+}
+
+table td:hover {
+    background: #000;
+    color: #fff;
+}

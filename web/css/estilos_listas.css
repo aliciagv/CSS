@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-nov-2017, 10:29:42
+    Author     : Alicia
+*/
+
+ul {
+    list-style-type:square ;
+       list-style-position:inside; /* deja un espaciado */
+    /*list-style-position:outside; /*valor por defecto */
+    }
+ol {
+    /*list-style-type: decimal-leading-zero; 01. 02. 03. 04.
+    list-style-type: upper-latin; A. B. C.*/
+    list-style-type: lower-latin;
+}

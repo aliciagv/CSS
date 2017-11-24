@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-nov-2017, 10:57:44
+    Author     : Alicia
+*/
+
+.menu {
+    width: 100%;
+    background: #000;
+    list-style-type: none; /* para quitar el circulo */
+    margin:0; /* ya que se ha quitado el cículo, pues quitar el espaciado que se ve */
+    padding:0; /* ya que se ha quitado el cículo, pues quitar el espaciado que se ve */
+    
+}
+.menu li {
+    display:inline-block; /* para ponerlo en horizontal */
+    
+}
+
+.menu li a {
+    padding:10px 20px;
+    display:inline-block;
+    color:#fff;
+}
+
+.menu li a:hover{
+    background: #ccc;
+    color:#000;
+}
